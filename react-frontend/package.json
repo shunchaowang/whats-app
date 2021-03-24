@@ -21,7 +21,7 @@
   "author": "Shunchao Wang",
   "repository": {
     "type": "git",
-    "url": "git@github.com:shunchaowang/webpack-boilerplate.git"
+    "url": "git@github.com:shunchaowang/whats-app.git"
   },
   "license": "MIT",
   "devDependencies": {

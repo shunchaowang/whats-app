@@ -7,6 +7,13 @@ module.exports = merge(commonConfig, {
   devtool: 'inline-source-map',
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
+    watchOptions: {
+      poll: true,
+      ignored: "/node_modules/"
+    },
+    open: true,
+    compress: true,
+    port: 9001
   },
   module: {
     rules: [
